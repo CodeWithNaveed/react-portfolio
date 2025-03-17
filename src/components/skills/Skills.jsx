@@ -1,58 +1,51 @@
-import React from 'react'
-import javascript from '../../assets/javascript.png'
-import html from '../../assets/html.png'
-import css3 from '../../assets/css3.png'
-import webdesign from '../../assets/web-design.png'
-import canva from '../../assets/canva.svg'
-import react from '../../assets/react.png'
+import React from 'react';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaDatabase } from 'react-icons/fa';
+import { SiMongodb, SiTailwindcss, SiNextdotjs, SiExpress, SiDocker, SiFirebase } from 'react-icons/si';
+
+const skills = [
+  { name: 'HTML', icon: FaHtml5 },
+  { name: 'CSS', icon: FaCss3 },
+  { name: 'JavaScript', icon: FaJs },
+  { name: 'React', icon: FaReact },
+  { name: 'Next.js', icon: SiNextdotjs },
+  { name: 'Node.js', icon: FaNodeJs },
+  { name: 'Express.js', icon: SiExpress },
+  { name: 'MongoDB', icon: SiMongodb },
+  { name: 'Tailwind CSS', icon: SiTailwindcss },
+  { name: 'Docker', icon: SiDocker },
+  { name: 'Firebase', icon: SiFirebase },
+  { name: 'Database Management', icon: FaDatabase }
+];
 
 export default function Skills() {
   return (
-    <section id='skills' className='relative overflow-hidden flex flex-col text-white body-font'>
-        <div className='container flex flex-wrap px-[3rem] py-24 mx-auto items-center'>
-            <div 
-            data-aos='fade-up' 
-            data-aos-delay='200' 
-            className='md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pd-10 border-b border-orange-400 px-[1rem]'>
-                <h1 data-aos='fade-right' data-aos-delay='500' className='sm:text-4xl text-2xl font-medium title-font mb-2  text-orange-500 '>Skills</h1>
-                <p data-aos='fade-right' data-aos-delay='500' className='leading-relaxed text-base'>
-                I am an enthusiastic web developer with a passion for creating responsive and
-                    visually appealing websites. I have a strong foundation in HTML, CSS,JavaScript, and I
-                    strive
-                    to enhance my skills to keep up with the latest trends in web development.My goal is to design user-friendly interfaces that provide an enjoyable
-                    experience
-                    for users across various devices. I enjoy tackling challenges and continuously learning new
-                    technologies and frameworks to improve my craft.
-                </p>
-                <p data-aos='fade-right' data-aos-delay='500' className='leading-relaxed text-base  text-orange-500'>When I'm not coding, you can find me exploring new technologies, contributing
-                    to
-                    open-source projects, or sharing my knowledge with fellow developers. Let's create something
-                    amazing
-                    together!</p>
-            </div>
-            <div data-aos='fade-left' data-aos-delay='500' className='flex flex-col md:w-1/2 md:pl-12'>
-            <nav className='flex flex-wrap list-none -mb-1 px-[1rem] '>
-                <li className='lg:w-1/3 mb-4 w-1/2'>
-                    <img src={javascript} alt="" className='rounded-full w-24 h-24 object-cover hover:translate-y-[-20px] duration-200'/>
-                </li>
-                <li className='lg:w-1/3 mb-4 w-1/2'>
-                    <img src={html} alt="" className='rounded-full w-24 h-24 object-cover hover:translate-y-[-20px] duration-200'/>
-                </li>
-                <li className='lg:w-1/3 mb-4 w-1/2'>
-                    <img src={css3} alt="" className='rounded-full w-24 h-24 object-cover hover:translate-y-[-20px] duration-200'/>
-                </li>
-                <li className='lg:w-1/3 mb-4 w-1/2'>
-                    <img src={webdesign} alt="" className='rounded-full w-24 h-24 object-cover hover:translate-y-[20px] duration-200'/>
-                </li>
-                <li className='lg:w-1/3 mb-4 w-1/2'>
-                    <img src={canva} alt="" className='rounded-full w-24 h-24 object-cover hover:translate-y-[20px] duration-200'/>
-                </li>
-                <li className='lg:w-1/3 mb-4 w-1/2'>
-                    <img src={react} alt="" className='rounded-full w-24 h-24 object-cover hover:translate-y-[20px] duration-200'/>
-                </li>
-            </nav>
-            </div>
+    <section id='skills' className='relative overflow-hidden flex flex-col text-white body-font bg-[#0f172a]'>
+      <div className='container flex flex-wrap px-12 py-24 mx-auto items-center'>
+        <div data-aos='fade-up' data-aos-delay='200' className='md:w-1/2 md:pr-12 md:py-8 md:border-r border-b border-[#60a5fa] px-4 mb-10 md:mb-0'>
+          <h1 data-aos='fade-right' data-aos-delay='500' className='sm:text-4xl text-2xl font-bold title-font mb-4 text-blue-500'>
+            Skills & Expertise
+          </h1>
+          <p data-aos='fade-right' data-aos-delay='500' className='leading-relaxed text-base text-gray-300'>
+            As a <span className='text-blue-400'>MERN Stack Developer</span>, I specialize in building scalable and efficient web applications using modern technologies. My expertise lies in creating full-stack applications with seamless user experiences.
+          </p>
+          <br />
+          <p data-aos='fade-right' data-aos-delay='500' className='leading-relaxed text-base text-[#60a5fa]'>
+            Currently honing my skills in <span className='text-white'>Next.js, Tailwind CSS, MongoDB, and GraphQL</span>, I thrive on tackling challenges, optimizing performance, and delivering high-quality, maintainable code.
+          </p>
         </div>
+        <div data-aos='fade-left' data-aos-delay='500' className='flex flex-col md:w-1/2 md:pl-12'>
+          <nav className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 px-4 justify-center'>
+            {skills.map(({ name, icon: Icon }, index) => (
+              <div key={index} className='flex flex-col items-center'>
+                <div className='rounded-full w-20 h-20 flex items-center justify-center bg-[#1e293b] hover:bg-[#3b82f6] transition duration-300'>
+                  <Icon className='text-4xl text-[#60a5fa]' />
+                </div>
+                <span className='mt-2 text-sm text-gray-400'>{name}</span>
+              </div>
+            ))}
+          </nav>
+        </div>
+      </div>
     </section>
-  )
+  );
 }

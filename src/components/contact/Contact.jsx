@@ -101,7 +101,7 @@ export default function Contact() {
           <div className="text-center">
             <button
               type="submit"
-              className="w-full md:w-auto px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 hover:shadow-[0_0_25px_rgba(0,140,255,0.7)] transition-all duration-300"
+              className="w-full md:w-auto px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 active:scale-90"
             >
               Send Message
             </button>

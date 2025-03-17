@@ -10,7 +10,7 @@ export default function Footer() {
         {/* Footer Branding */}
         <span className='text-lg font-semibold flex items-center space-x-2'>
           <MdOutlineEmail size={28} />
-          <span className='text-gray-400'>Naveed Ali Abbasi</span>
+          <span className='text-gray-400'>Naveed Ali</span>
         </span>
 
         {/* Social Media Links */}

@@ -50,7 +50,7 @@ export default function Home() {
                         {/* Buttons */}
                         <div className='flex space-x-4'>
                             <a href={NaveedCV} download>
-                                <button className='px-6 py-3 text-lg font-semibold text-white bg-[#008cff] rounded-full shadow-lg hover:bg-[#005ea6] transition-all duration-300 hover:shadow-[#008cff]/50'>
+                                <button className='w-full md:w-auto px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 active:transform active:scale-90'>
                                     Download CV
                                 </button>
                             </a>
