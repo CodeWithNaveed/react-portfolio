@@ -50,7 +50,7 @@ export default function Home() {
                         {/* Buttons */}
                         <div className='flex space-x-4'>
                             <a href={NaveedCV} download>
-                                <button className='w-full md:w-auto px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 active:transform active:scale-90'>
+                                <button data-aos='zoom-in' data-aos-delay='250' className='w-full md:w-auto px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 active:transform active:scale-90'>
                                     Download CV
                                 </button>
                             </a>
@@ -62,6 +62,12 @@ export default function Home() {
                         <img
                             src={heroimg}
                             alt="Profile"
+                            data-aos="zoom-in"
+                            data-aos-delay="250"
+                            data-aos-easing="ease-in-out"
+                            data-aos-duration="1000"
+                            
+
                             className="w-96 h-96 object-fit rounded-full shadow-2xl border-4 border-[#008cff] mx-auto" // Added mx-auto
                         />
                     </div>

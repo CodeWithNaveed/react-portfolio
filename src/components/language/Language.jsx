@@ -10,7 +10,7 @@ export default function Language() {
     <section
       id='language'
       data-aos='fade-up'
-      data-aos-delay='300'
+      data-aos-delay='400'
       className='flex flex-col items-center justify-center gap-12 py-20 px-6 md:px-10 bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white' // Darker blue background
     >
       <h2 className='text-4xl font-semibold text-center mb-8 tracking-wide text-[#60a5fa]'> {/* Blue heading */}
@@ -22,6 +22,8 @@ export default function Language() {
           <div
             key={index}
             className='flex flex-col items-center bg-[#1e293b] rounded-xl p-8 shadow-md hover:scale-105 transition-transform duration-300 w-full sm:w-72' // Slightly larger cards, subtle shadow
+            data-aos='zoom-in'
+            data-aos-delay='400'
           >
             <div className='relative w-24 h-24 flex items-center justify-center bg-[#3b82f6] rounded-full text-3xl font-semibold text-white shadow-lg'> {/* Blue circle, larger */}
               {language.code}
