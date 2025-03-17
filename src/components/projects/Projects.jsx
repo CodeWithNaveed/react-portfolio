@@ -15,7 +15,7 @@ import img7 from '../../assets/img7.png';
 export default function Projects() {
   const listProjects = [
     { 
-      image: img7, 
+      image: ' ', 
       title: 'Booking App (MERN)', 
       demo_link: 'https://your-demo-link.com',
       repo_link: 'https://github.com/your-repo'  
@@ -29,7 +29,7 @@ export default function Projects() {
     { 
       image: img5, 
       title: 'Tesla Clone (React)', 
-      demo_link: '',
+      demo_link: 'https://tesla-clone-psi-five.vercel.app/',
       repo_link: 'https://github.com/CodeWithNaveed/tesla-clone' 
     },
     { 
