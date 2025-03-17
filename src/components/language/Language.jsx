@@ -11,24 +11,24 @@ export default function Language() {
       id='language'
       data-aos='fade-up'
       data-aos-delay='300'
-      className='flex flex-col items-center justify-center gap-12 py-20 px-6 md:px-10 bg-gradient-to-b from-[#0b132b] to-[#1c2541] text-white'
+      className='flex flex-col items-center justify-center gap-12 py-20 px-6 md:px-10 bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white' // Darker blue background
     >
-      <h2 className='text-4xl font-extrabold text-center mb-8 tracking-wide'>
+      <h2 className='text-4xl font-semibold text-center mb-8 tracking-wide text-[#60a5fa]'> {/* Blue heading */}
         Languages
       </h2>
 
-      <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-12'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12'> {/* Adjusted gap */}
         {languages.map((language, index) => (
           <div
             key={index}
-            className='flex flex-col items-center bg-[#1c2541] rounded-xl p-6 shadow-lg hover:scale-105 transition-transform duration-300 w-full sm:w-60'
+            className='flex flex-col items-center bg-[#1e293b] rounded-xl p-8 shadow-md hover:scale-105 transition-transform duration-300 w-full sm:w-72' // Slightly larger cards, subtle shadow
           >
-            <div className='relative w-20 h-20 flex items-center justify-center bg-white rounded-full text-2xl font-semibold text-[#1c2541] shadow-lg'>
+            <div className='relative w-24 h-24 flex items-center justify-center bg-[#3b82f6] rounded-full text-3xl font-semibold text-white shadow-lg'> {/* Blue circle, larger */}
               {language.code}
-              <div className='absolute w-full h-full rounded-full bg-gradient-to-b from-[#ff9743] to-[#ffe460] opacity-80 blur-xl'></div>
+              <div className='absolute w-full h-full rounded-full bg-gradient-to-b from-[#60a5fa] to-[#93c5fd] opacity-70 blur-xl'></div> {/* Blue gradient */}
             </div>
-            <span className='text-2xl font-semibold mt-4'>{language.name}</span>
-            <span className='text-lg text-[#f4a261] font-medium mt-2'>{language.level}</span>
+            <span className='text-2xl font-medium mt-6 text-gray-200'>{language.name}</span> {/* Gray text */}
+            <span className='text-lg text-[#93c5fd] font-medium mt-2'> {language.level}</span> {/* Light blue level */}
           </div>
         ))}
       </div>
