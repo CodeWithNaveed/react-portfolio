@@ -21,12 +21,12 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/naveed-ali-9a6a71302/" target='_blank' className='text-gray-400 hover:text-blue-400 transition duration-300'>
+            <a href="https://www.linkedin.com/in/naveed-ali-9a6a71302/" target='_blank' className='text-gray-400 hover:text-blue-500 transition duration-300'>
               <FaLinkedin size={28} />
             </a>
           </li>
           <li>
-            <a href="https://github.com/CodeWithNaveed" target='_blank' className='text-gray-400 hover:text-gray-200 transition duration-300'>
+            <a href="https://github.com/CodeWithNaveed" target='_blank' className='text-gray-400 hover:text-blue-500 transition duration-300'>
               <FaGithub size={28} />
             </a>
           </li>

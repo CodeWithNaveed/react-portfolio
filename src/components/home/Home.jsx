@@ -62,13 +62,14 @@ export default function Home() {
                     </div>
 
                     {/* Hero Image - Masculine Style */}
-                    <div className='md:w-1/2 flex justify-center mt-10 md:mt-0'>
+                    <div className="md:w-1/2 flex justify-center items-center mt-10 md:mt-0">
                         <img
                             src={heroimg}
                             alt="Profile"
-                            className='w-80 h-80 object-cover rounded-full shadow-2xl border-4 border-[#008cff]'
+                            className="w-80 h-80 rounded-full shadow-5xl border-4 border-[#008cff] object-fit object-top"
                         />
                     </div>
+
 
                 </div>
             </section>

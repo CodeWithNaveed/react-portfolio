@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    caret-color: transparent;
+}
 
 html {
     scroll-behavior: smooth;
 }
 
-* {
-    caret-color: transparent;
-}
 
 body {
     scrollbar-width: thin;
@@ -22,7 +22,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: #ffffff;
+    background: #fffdfd;
 }
 
 ::-webkit-scrollbar-thumb {
