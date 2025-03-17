@@ -4,9 +4,10 @@ import { AiOutlineMenu } from 'react-icons/ai';
 
 const navItems = [
   { name: 'Home', link: '#' },
-  { name: 'About', link: '#about' },
+  { name: 'About', link: '#skills' },
+  { name: 'Experience', link: '#experience' },
+  { name: 'Language', link: '#language' },
   { name: 'Projects', link: '#projects' },
-  { name: 'Contact', link: '#contact' }
 ];
 
 export default function Header() {
