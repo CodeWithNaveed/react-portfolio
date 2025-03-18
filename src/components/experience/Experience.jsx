@@ -15,7 +15,6 @@ export default function Experience() {
             </div>
             <div data-aos='fade-left' data-aos-delay='400' className='lg:flex-grow md:w-1/2 lg:pl-8 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center'>
                 <h1 className='title-font sm:text-4xl text-3xl mb-4 mt-7 font-medium text-blue-400'>Experience</h1>
-                <h2 className='title-font font-bold text-white sm:text-2xl'>2024 :</h2>
                 <p className='mb-8 text-white leading-relaxed'>I have gained hands-on experience in frontend and full-stack development through multiple internships and personal projects. My work includes:</p>
                 <ul className='list-disc list-inside text-white'>
                     <li>Frontend Developer Intern at Shulateck Solutions - Worked on UI/UX enhancements and optimized web performance.</li>
