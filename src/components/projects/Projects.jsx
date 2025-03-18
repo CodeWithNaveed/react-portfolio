@@ -61,13 +61,13 @@ export default function Projects() {
     },
     {
       image: img9, 
-      title: 'usePopcorn', 
+      title: 'usePopcorn (React)', 
       demo_link: 'https://react-project-09.vercel.app/', 
       repo_link: 'https://github.com/CodeWithNaveed/react-project-09'
     },
     {
       image: img8, 
-      title: 'Todo App', 
+      title: 'Todo App (React, Context API & Local Storage)', 
       demo_link: 'https://context-api-local-storage-rho.vercel.app/', 
       repo_link: 'https://github.com/CodeWithNaveed/contextAPI-LocalStorage'
     },
