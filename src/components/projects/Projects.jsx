@@ -10,6 +10,9 @@ import img4 from '../../assets/img4.png';
 import img5 from '../../assets/img5.png';
 import img6 from '../../assets/img6.png';
 import img7 from '../../assets/img7.png';
+import img8 from '../../assets/img8.png';
+import img9 from '../../assets/img9.png';
+import img10 from '../../assets/img10.png';
 
 
 export default function Projects() {
@@ -49,6 +52,24 @@ export default function Projects() {
       title: 'OLX-clone', 
       demo_link: 'https://naveed-olx-clone.netlify.app/', 
       repo_link: 'https://github.com/CodeWithNaveed/OLX-clone' 
+    },
+    {
+      image: img10, 
+      title: 'Our Menu', 
+      demo_link: 'https://naveed-dom-assignment.netlify.app/our%20manu/index.html', 
+      repo_link: 'https://github.com/CodeWithNaveed/DOM-assignment/tree/main/our%20manu'
+    },
+    {
+      image: img9, 
+      title: 'usePopcorn', 
+      demo_link: 'https://react-project-09.vercel.app/', 
+      repo_link: 'https://github.com/CodeWithNaveed/react-project-09'
+    },
+    {
+      image: img8, 
+      title: 'Todo App', 
+      demo_link: 'https://context-api-local-storage-rho.vercel.app/', 
+      repo_link: 'https://github.com/CodeWithNaveed/contextAPI-LocalStorage'
     },
     { 
       image: img1, 
