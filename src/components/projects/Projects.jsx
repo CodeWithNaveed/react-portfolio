@@ -9,7 +9,6 @@ import img3 from '../../assets/img3.png';
 import img4 from '../../assets/img4.png';
 import img5 from '../../assets/img5.png';
 import img6 from '../../assets/img6.png';
-import img7 from '../../assets/img7.png';
 
 
 export default function Projects() {
