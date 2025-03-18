@@ -13,6 +13,10 @@ import img7 from '../../assets/img7.png';
 import img8 from '../../assets/img8.png';
 import img9 from '../../assets/img9.png';
 import img10 from '../../assets/img10.png';
+import img11 from '../../assets/img11.png';
+import img12 from '../../assets/img12.png';
+import img13 from '../../assets/img13.png';
+
 
 
 export default function Projects() {
@@ -54,6 +58,18 @@ export default function Projects() {
       repo_link: 'https://github.com/CodeWithNaveed/OLX-clone' 
     },
     {
+      image: img11, 
+      title: 'Disney Clone (React)', 
+      demo_link: 'https://disney-clone-ivs0o4p7s-naveed-ali-abbasis-projects.vercel.app/', 
+      repo_link: 'https://github.com/CodeWithNaveed/disney-clone'
+    },
+    {
+      image: img13, 
+      title: 'Roll a Dice Game', 
+      demo_link: 'https://naveed-dom-assignment.netlify.app/roll%20a%20dice%20game%20application/', 
+      repo_link: 'https://github.com/CodeWithNaveed/DOM-assignment/tree/main/Roll%20a%20Dice%20Game%20Application'
+    },
+    {
       image: img10, 
       title: 'Our Menu', 
       demo_link: 'https://naveed-dom-assignment.netlify.app/our%20manu/index.html', 
@@ -70,6 +86,12 @@ export default function Projects() {
       title: 'Todo App (React, Context API & Local Storage)', 
       demo_link: 'https://context-api-local-storage-rho.vercel.app/', 
       repo_link: 'https://github.com/CodeWithNaveed/contextAPI-LocalStorage'
+    },
+    {
+      image: img12, 
+      title: 'Guess My Number!', 
+      demo_link: 'https://naveed-dom-assignment.netlify.app/guess%20my%20number/', 
+      repo_link: 'https://github.com/CodeWithNaveed/DOM-assignment/tree/main/Guess%20My%20Number'
     },
     { 
       image: img1, 
