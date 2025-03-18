@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import toast from "react-hot-toast";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -28,20 +29,21 @@ export default function Contact() {
       const data = await response.json();
 
       if (data.success) {
-        alert("✅ Form Submitted Successfully!");
+        toast.success("✅ Form Submitted Successfully!");
         setFormData({ name: "", email: "", message: "" }); // ✅ Clear form fields
       } else {
-        alert("❌ Error: " + data.message);
+        toast.error("❌ Error: " + data.message);
       }
+
     } catch (error) {
-      alert("❌ Something went wrong. Please try again.");
+      toast.error("❌ Something went wrong. Please try again.");
     }
   };
 
   return (
     <section id="contact" data-aos="fade-up" data-aos-delay="400">
       <div className="py-8 lg:py-16 px-5 mx-auto max-w-screen-md">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-white">
+        <h2 data-aos='fade-up' data-aos-delay='500' className="text-4xl font-bold text-center mb-7 text-blue-500">
           Contact Me
         </h2>
 

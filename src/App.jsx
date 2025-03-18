@@ -8,25 +8,29 @@ import Language from './components/language/Language';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import { Toaster } from "react-hot-toast";
 
 export default function App() {
-  useEffect(()=>{
+  useEffect(() => {
     AOS.init({
       duration: 300,
     });
-  },[]);
+  }, []);
 
 
   return (
-   <main className='bg-[#0d182e]'>
-    <Home />
-    <Skills />
-    <Experience />
-    <Language />
-    <Projects />
-    <Contact />
-    <Footer />
-   </main>
+    <>
+      <main className='bg-[#0d182e]'>
+        <Home />
+        <Skills />
+        <Experience />
+        <Language />
+        <Projects />
+        <Contact />
+        <Footer />
+      </main>
+      <Toaster />
+    </>
   )
 }
 
