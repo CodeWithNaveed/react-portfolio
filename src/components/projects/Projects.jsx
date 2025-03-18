@@ -16,6 +16,9 @@ import img10 from '../../assets/img10.png';
 import img11 from '../../assets/img11.png';
 import img12 from '../../assets/img12.png';
 import img13 from '../../assets/img13.png';
+import img14 from '../../assets/img14.png';
+import img15 from '../../assets/img15.png';
+import img16 from '../../assets/img16.png';
 
 
 
@@ -99,6 +102,24 @@ export default function Projects() {
       demo_link: 'https://country-app-ap.netlify.app/', 
       repo_link: 'https://github.com/CodeWithNaveed/country-app-Api-' 
     },
+    {
+      image: img14, 
+      title: 'Tic Tac Toe', 
+      demo_link: 'https://naveed-dom-assignment.netlify.app/tic%20tac%20toe/index.html', 
+      repo_link: 'https://github.com/CodeWithNaveed/DOM-assignment/tree/main/tic%20tac%20toe'
+    },
+    {
+      image: img16, 
+      title: 'Weather App', 
+      demo_link: 'https://codewithnaveed.github.io/weather-app-api/', 
+      repo_link: 'https://github.com/CodeWithNaveed/weather-app-api'
+    },
+    {
+      image: img15, 
+      title: 'Action Game', 
+      demo_link: 'https://naveed-dom-assignment.netlify.app/action%20game/', 
+      repo_link: 'https://github.com/CodeWithNaveed/DOM-assignment/tree/main/Action%20Game'
+    }
   ];
 
   const settings = {
