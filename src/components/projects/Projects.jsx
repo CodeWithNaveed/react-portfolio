@@ -19,6 +19,7 @@ import img13 from '../../assets/img13.png';
 import img14 from '../../assets/img14.png';
 import img15 from '../../assets/img15.png';
 import img16 from '../../assets/img16.png';
+import img17 from '../../assets/img17.png';
 
 
 
@@ -113,6 +114,12 @@ export default function Projects() {
       title: 'Weather App', 
       demo_link: 'https://codewithnaveed.github.io/weather-app-api/', 
       repo_link: 'https://github.com/CodeWithNaveed/weather-app-api'
+    },
+    {
+      image: img17, 
+      title: 'Days (React)', 
+      demo_link: 'https://react-project-04.vercel.app/', 
+      repo_link: 'https://github.com/CodeWithNaveed/react-project-04'
     },
     {
       image: img15, 
