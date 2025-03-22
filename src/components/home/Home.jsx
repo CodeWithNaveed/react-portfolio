@@ -3,6 +3,7 @@ import Navbar from '../navbar/Navbar';
 import NaveedCV from './NaveedCV.pdf';
 import heroimg from '../../assets/profile.png';
 import { ReactTyped } from "react-typed";
+import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 
 export default function Home() {
     return (
@@ -48,13 +49,32 @@ export default function Home() {
                         </p>
 
                         {/* Buttons */}
-                        <div className='flex space-x-4'>
+                        <div className='flex space-x-4 md:space-x-6 md:mt-0'>
                             <a href={NaveedCV} download>
                                 <button data-aos='zoom-in' data-aos-delay='250' className='w-full md:w-auto px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 active:transform active:scale-90'>
                                     Download CV
                                 </button>
                             </a>
                         </div>
+
+                        {/* Social Media Links */}
+                        <ul className='flex space-x-3 mt-6  '>
+                            <li>
+                                <a href="https://www.facebook.com/naveedali.abbasi.12/" target='_blank' className='text-gray-400 hover:text-blue-500 transition duration-300'>
+                                    <FaFacebook size={28} />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/naveed-ali-9a6a71302/" target='_blank' className='text-gray-400 hover:text-blue-500 transition duration-300'>
+                                    <FaLinkedin size={28} />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/CodeWithNaveed" target='_blank' className='text-gray-400 hover:text-blue-500 transition duration-300'>
+                                    <FaGithub size={28} />
+                                </a>
+                            </li>
+                        </ul>
                     </div>
 
                     {/* Hero Image - Masculine Style */}
@@ -66,7 +86,7 @@ export default function Home() {
                             data-aos-delay="250"
                             data-aos-easing="ease-in-out"
                             data-aos-duration="1000"
-                            
+
 
                             className="w-96 h-96 object-fit rounded-full shadow-2xl border-4 border-[#008cff] mx-auto" // Added mx-auto
                         />

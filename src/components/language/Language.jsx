@@ -13,11 +13,11 @@ export default function Language() {
       data-aos-delay='400'
       className='flex flex-col items-center justify-center gap-12 py-20 px-6 md:px-10 bg-gradient-to-b from-[#0f172a] to-[#1e293b] text-white' // Darker blue background
     >
-      <h2 className='text-4xl font-semibold text-center mb-8 tracking-wide text-[#60a5fa]'> {/* Blue heading */}
+      <h2 data-aos='fade-up' data-aos-delay='600' className='mt-16 text-4xl font-bold text-center text-blue-500'>
         Languages
       </h2>
 
-      <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12'> {/* Adjusted gap */}
+      <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12'>
         {languages.map((language, index) => (
           <div
             key={index}

@@ -42,8 +42,8 @@ export default function Contact() {
 
   return (
     <section id="contact" data-aos="fade-up" data-aos-delay="400">
-      <div className="py-8 lg:py-16 px-5 mx-auto max-w-screen-md">
-        <h2 data-aos='fade-up' data-aos-delay='500' className="text-4xl font-bold text-center mb-7 text-blue-500">
+      <div className="py-4 px-5 mx-auto max-w-screen-md">
+        <h2 data-aos='fade-up' data-aos-delay='500' className="mt-12 text-4xl font-bold text-center mb-4 text-blue-500">
           Contact Me
         </h2>
 

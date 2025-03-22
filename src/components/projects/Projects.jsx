@@ -25,106 +25,106 @@ import img17 from '../../assets/img17.png';
 
 export default function Projects() {
   const listProjects = [
-    { 
-      image: img7, 
-      title: 'Booking App (MERN)', 
-      demo_link: ' ',
-      repo_link: ' '  
+    {
+      image: img7,
+      title: 'Booking App (MERN)',
+      demo_link: 'https://booking-app-client-beta.vercel.app',
+      repo_link: 'https://github.com/CodeWithNaveed/Booking-APP-Client'
     },
-    { 
-      image: img6, 
-      title: 'YouTube Clone (MERN)', 
-      demo_link: 'https://you-tube-clone-eight-pink.vercel.app/', 
-      repo_link: 'https://github.com/CodeWithNaveed/YouTube-clone-react-client' 
+    {
+      image: img6,
+      title: 'YouTube Clone (MERN)',
+      demo_link: 'https://you-tube-clone-eight-pink.vercel.app/',
+      repo_link: 'https://github.com/CodeWithNaveed/YouTube-clone-react-client'
     },
-    { 
-      image: img5, 
-      title: 'Tesla Clone (React)', 
+    {
+      image: img5,
+      title: 'Tesla Clone (React)',
       demo_link: 'https://tesla-clone-psi-five.vercel.app/',
-      repo_link: 'https://github.com/CodeWithNaveed/tesla-clone' 
-    },
-    { 
-      image: img4, 
-      title: 'Apple Clone', 
-      demo_link: 'https://naveed-apple-clone.netlify.app/', 
-      repo_link: 'https://github.com/CodeWithNaveed/Apple_Clone' 
+      repo_link: 'https://github.com/CodeWithNaveed/tesla-clone'
     },
     {
-      image: img3, 
-      title: 'Amazon Clone', 
-      demo_link: 'https://naveed-amazon-clone.netlify.app/', 
-      repo_link: 'https://github.com/CodeWithNaveed/Amazon_Clone' 
-    },
-    { 
-      image: img2, 
-      title: 'OLX-clone', 
-      demo_link: 'https://naveed-olx-clone.netlify.app/', 
-      repo_link: 'https://github.com/CodeWithNaveed/OLX-clone' 
+      image: img4,
+      title: 'Apple Clone',
+      demo_link: 'https://naveed-apple-clone.netlify.app/',
+      repo_link: 'https://github.com/CodeWithNaveed/Apple_Clone'
     },
     {
-      image: img11, 
-      title: 'Disney Clone (React)', 
-      demo_link: 'https://disney-clone-ivs0o4p7s-naveed-ali-abbasis-projects.vercel.app/', 
+      image: img3,
+      title: 'Amazon Clone',
+      demo_link: 'https://naveed-amazon-clone.netlify.app/',
+      repo_link: 'https://github.com/CodeWithNaveed/Amazon_Clone'
+    },
+    {
+      image: img2,
+      title: 'OLX-clone',
+      demo_link: 'https://naveed-olx-clone.netlify.app/',
+      repo_link: 'https://github.com/CodeWithNaveed/OLX-clone'
+    },
+    {
+      image: img11,
+      title: 'Disney Clone (React)',
+      demo_link: 'https://disney-clone-ivs0o4p7s-naveed-ali-abbasis-projects.vercel.app/',
       repo_link: 'https://github.com/CodeWithNaveed/disney-clone'
     },
     {
-      image: img13, 
-      title: 'Roll a Dice Game', 
-      demo_link: 'https://naveed-dom-assignment.netlify.app/roll%20a%20dice%20game%20application/', 
+      image: img13,
+      title: 'Roll a Dice Game',
+      demo_link: 'https://naveed-dom-assignment.netlify.app/roll%20a%20dice%20game%20application/',
       repo_link: 'https://github.com/CodeWithNaveed/DOM-assignment/tree/main/Roll%20a%20Dice%20Game%20Application'
     },
     {
-      image: img10, 
-      title: 'Our Menu', 
-      demo_link: 'https://naveed-dom-assignment.netlify.app/our%20manu/index.html', 
+      image: img10,
+      title: 'Our Menu',
+      demo_link: 'https://naveed-dom-assignment.netlify.app/our%20manu/index.html',
       repo_link: 'https://github.com/CodeWithNaveed/DOM-assignment/tree/main/our%20manu'
     },
     {
-      image: img9, 
-      title: 'usePopcorn (React)', 
-      demo_link: 'https://react-project-09.vercel.app/', 
+      image: img9,
+      title: 'usePopcorn (React)',
+      demo_link: 'https://react-project-09.vercel.app/',
       repo_link: 'https://github.com/CodeWithNaveed/react-project-09'
     },
     {
-      image: img8, 
-      title: 'Todo App (React, Context API & Local Storage)', 
-      demo_link: 'https://context-api-local-storage-rho.vercel.app/', 
+      image: img8,
+      title: 'Todo App (React, Context API & Local Storage)',
+      demo_link: 'https://context-api-local-storage-rho.vercel.app/',
       repo_link: 'https://github.com/CodeWithNaveed/contextAPI-LocalStorage'
     },
     {
-      image: img12, 
-      title: 'Guess My Number!', 
-      demo_link: 'https://naveed-dom-assignment.netlify.app/guess%20my%20number/', 
+      image: img12,
+      title: 'Guess My Number!',
+      demo_link: 'https://naveed-dom-assignment.netlify.app/guess%20my%20number/',
       repo_link: 'https://github.com/CodeWithNaveed/DOM-assignment/tree/main/Guess%20My%20Number'
     },
-    { 
-      image: img1, 
-      title: 'Country App', 
-      demo_link: 'https://country-app-ap.netlify.app/', 
-      repo_link: 'https://github.com/CodeWithNaveed/country-app-Api-' 
+    {
+      image: img1,
+      title: 'Country App',
+      demo_link: 'https://country-app-ap.netlify.app/',
+      repo_link: 'https://github.com/CodeWithNaveed/country-app-Api-'
     },
     {
-      image: img14, 
-      title: 'Tic Tac Toe', 
-      demo_link: 'https://naveed-dom-assignment.netlify.app/tic%20tac%20toe/index.html', 
+      image: img14,
+      title: 'Tic Tac Toe',
+      demo_link: 'https://naveed-dom-assignment.netlify.app/tic%20tac%20toe/index.html',
       repo_link: 'https://github.com/CodeWithNaveed/DOM-assignment/tree/main/tic%20tac%20toe'
     },
     {
-      image: img16, 
-      title: 'Weather App', 
-      demo_link: 'https://codewithnaveed.github.io/weather-app-api/', 
+      image: img16,
+      title: 'Weather App',
+      demo_link: 'https://codewithnaveed.github.io/weather-app-api/',
       repo_link: 'https://github.com/CodeWithNaveed/weather-app-api'
     },
     {
-      image: img17, 
-      title: 'Days (React)', 
-      demo_link: 'https://react-project-04.vercel.app/', 
+      image: img17,
+      title: 'Days (React)',
+      demo_link: 'https://react-project-04.vercel.app/',
       repo_link: 'https://github.com/CodeWithNaveed/react-project-04'
     },
     {
-      image: img15, 
-      title: 'Action Game', 
-      demo_link: 'https://naveed-dom-assignment.netlify.app/action%20game/', 
+      image: img15,
+      title: 'Action Game',
+      demo_link: 'https://naveed-dom-assignment.netlify.app/action%20game/',
       repo_link: 'https://github.com/CodeWithNaveed/DOM-assignment/tree/main/Action%20Game'
     }
   ];
@@ -145,7 +145,9 @@ export default function Projects() {
   return (
     <section id='projects' className='relative overflow-hidden flex flex-col text-white body-font'>
       <div className='container px-8 pt-24 pb-12 mx-auto'>
-        <h2 data-aos='fade-up' data-aos-delay='400' className='text-4xl font-bold text-center mb-12 text-blue-500'>My Projects</h2>
+        <h2 data-aos='fade-up' data-aos-delay='400' className='mt-16 text-4xl font-bold text-center mb-12 text-blue-500'>
+          My Projects
+        </h2>
         <Slider {...settings}>
           {listProjects.map((project, index) => (
             <div key={index} className='p-4'>

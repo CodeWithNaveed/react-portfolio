@@ -4,13 +4,13 @@ import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className='bg-[#0b132b] text-white py-6 px-4 rounded-t-lg shadow-lg'>
+    <footer className='bg-[#0b132b] text-white py-2 px-4 rounded-t-lg shadow-lg'>
       <div className='w-full mx-auto max-w-screen-xl flex flex-col md:flex-row items-center justify-between'>
         
         {/* Footer Branding */}
-        <span className='text-lg font-semibold flex items-center space-x-2'>
+        <span className='text-lg font-semibold flex items-center space-x-10'>
           <MdOutlineEmail size={28} />
-          <span className='text-gray-400'>Naveed Ali</span>
+          <span className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} Naveed Ali. All rights reserved.</span>
         </span>
 
         {/* Social Media Links */}

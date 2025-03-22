@@ -20,6 +20,10 @@ const skills = [
 export default function Skills() {
   return (
     <section id='skills' className='relative overflow-hidden flex flex-col text-white body-font bg-[#0f172a]'>
+      <h2 data-aos='fade-up' data-aos-delay='600' className='mt-16 text-4xl font-bold text-center text-blue-500'>
+        About Me 
+      </h2>
+
       <div className='container flex flex-wrap px-12 py-24 mx-auto items-center'>
         <div data-aos='fade-up' data-aos-delay='200' className='md:w-1/2 md:pr-12 md:py-8 md:border-r border-b border-[#60a5fa] px-4 mb-10 md:mb-0'>
           <h1 data-aos='fade-right' data-aos-delay='400' className='sm:text-4xl text-2xl font-bold title-font mb-4 text-blue-500'>
